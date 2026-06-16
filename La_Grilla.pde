@@ -41,11 +41,11 @@ void setup(){
   for(int f = 0; f < filas; f++){
     for(int c = 0; c < columnas; c++){
       
-      float px = espacioX * (c + 1);
-      float py = espacioY * (f + 1); 
-      float vx = random(-1, 1); 
-      float vy = random(-1, 1);   
-      moviles[indice] = new Movil(px, py, vx, vy); 
+      float Px = espacioX * (c + 1);
+      float Py = espacioY * (f + 1); 
+      float Vx = random(-1, 1); 
+      float Vy = random(-1, 1);   
+      moviles[indice] = new Movil(Px, Py, Vx, Vy); 
       indice++; 
     }
   }
